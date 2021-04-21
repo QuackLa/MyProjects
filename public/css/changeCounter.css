@@ -1,0 +1,41 @@
+.changeCounter {
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 2%;
+}
+
+.changeCounter tr:first-child td {
+    background: peru;
+    color: black;
+    text-align: center;
+}
+
+.changeCounter tr td {
+    background: #e3db96;
+    padding: 1%;
+    width: 10%;
+    border: 1px solid black;
+}
+
+.changeCounter tr td input,
+.changeCounter tr td select {
+    margin-left: 0%;
+    background: #fffce3;
+    border: 1px solid grey;
+}
+
+.changeCounter tr td button {
+    margin-left: 75%;
+    background: greenyellow;
+    width: 15%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.changeCounter tr td button:hover,
+.changeCounter tr td button:focus,
+.changeCounter tr td button:active {
+    box-shadow: 0 0 5px green;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,22 @@
+.register {
+    border: 1px solid black;
+    width: 30%;
+    background: #e1fceeef;
+    margin-top: 2%;
+    margin-left: 35%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.buttonRegister {
+    background: grey;
+    color: #e1fceeef;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.buttonRegister:hover {
+    color:white;
+    box-shadow: 0 0 5px black;
+}

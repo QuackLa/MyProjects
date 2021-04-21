@@ -1,0 +1,25 @@
+.login {
+    border: 1px solid black;
+    width: 30%;
+    background: #e1fceeef;
+    margin-top: 5%;
+    margin-left: 35%;
+    padding: 2%;
+    margin-bottom: 15%;
+}
+
+.buttonLogin {
+    background: grey;
+    color: #e1fceeef;
+    text-decoration: none;
+    margin-left: 10%;
+}
+
+.buttonLogin:last-child {
+    margin-top: 2%;
+}
+
+.buttonLogin:hover {
+    color:white;
+    box-shadow: 0 0 5px black;
+}

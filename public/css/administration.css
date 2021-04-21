@@ -1,0 +1,85 @@
+.adminChangeCounters,
+.adminChangeChecks,
+.adminChangeContacts {
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 2%;
+}
+
+.adminChangeCounters tr:first-child td,
+.adminChangeChecks tr:first-child td,
+.adminChangeContacts tr:first-child td {
+    background: peru;
+    color: black;
+    text-align: center;
+}
+
+.adminChangeCounters tr td,
+.adminChangeChecks tr td,
+.adminChangeContacts tr td {
+    background: #e3db96;
+    padding: 1%;
+    width: 10%;
+    border: 1px solid black;
+}
+
+.adminChangeCounters tr td input,
+.adminChangeChecks tr td input,
+.adminChangeContacts tr td input,
+.adminChangeCounters tr td select,
+.adminChangeChecks tr td select,
+.adminChangeContacts tr td select {
+    margin-left: 0%;
+    background: #fffce3;
+    border: 1px solid grey;
+}
+
+/* Кнопки */
+
+.adminButtonDelete {
+    margin-left: 75%;
+    background: #ffcfe6;
+    width: 15%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.adminButtonDelete:hover,
+.adminButtonDelete:focus,
+.adminButtonDelete:active {
+    box-shadow: 0 0 5px red;
+    cursor: pointer;
+    outline: none;
+}
+
+.adminButtonEdit {
+    margin-left: 55%;
+    background: orange;
+    width: 35%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.adminButtonEdit:hover,
+.adminButtonEdit:focus,
+.adminButtonEdit:active {
+    box-shadow: 0 0 5px orangered;
+    cursor: pointer;
+    outline: none;
+}
+
+.adminButtonAdd {
+    margin-left: 53%;
+    background: greenyellow;
+    width: 28%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.adminButtonAdd:hover,
+.adminButtonAdd:focus,
+.adminButtonAdd:active {
+    box-shadow: 0 0 5px green;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,40 @@
+.howToPay {
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.howToPay tr:first-child td {
+    background: peru;
+    color: black;
+    text-align: center;
+}
+
+.howToPay tr td {
+    background: #e3db96;
+    padding: 1%;
+    width: 10%;
+    border: 1px solid black;
+}
+
+.backButtonPay {
+    margin-left: 14%;
+    margin-top: 2%;
+}
+
+.backButtonPay a {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid grey;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: black;
+    border-radius: 10px;
+    display: block;
+    width: 10%;
+    box-shadow: 0 0 5px grey;
+}
+
+.backButtonPay a:hover {
+    box-shadow: 0 0 5px purple;
+    outline: none;
+}

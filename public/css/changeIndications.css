@@ -1,0 +1,41 @@
+.changeIndications {
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 2%;
+}
+
+.changeIndications tr:first-child td {
+    background: peru;
+    color: black;
+    text-align: center;
+}
+
+.changeIndications tr td {
+    background: #e3db96;
+    padding: 1%;
+    width: 10%;
+    border: 1px solid black;
+}
+
+.changeIndications tr td input,
+.changeIndications tr td select {
+    margin-left: 0%;
+    background: #fffce3;
+    border: 1px solid grey;
+}
+
+.buttonEdit {
+    margin-left: 75%;
+    background: orange;
+    width: 15%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.buttonEdit:hover,
+.buttonEdit:focus,
+.buttonEdit:active {
+    box-shadow: 0 0 5px orangered;
+    cursor: pointer;
+    outline: none;
+}

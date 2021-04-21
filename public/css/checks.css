@@ -1,0 +1,153 @@
+.Checks {
+    border-radius: 10px;  
+    padding: 1%;
+    padding-left: 5%;
+    width: 90%;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+.Checks tr td input,
+.Checks tr td select {
+    margin-left: 0%;
+    background: #fffce3;
+    border: 1px solid grey;
+}
+
+/* Кнопка добавления файла */
+.Checks tr td label {
+    display: inline-block;
+    margin-left: 0%;
+    text-align: center;
+    width: 70%;
+    border: 1px solid black;
+    background: #fffce3;
+}
+
+.Checks tr td label:hover {
+    box-shadow: 0 0 2px purple;
+}
+
+.showChecks {
+    margin-left: 14%;
+    margin-right: 14%;
+    display: block;
+}
+
+.showChecks tr:last-child td {
+    border: none;
+}
+
+.showChecks tr td {
+    display: inline-block;
+    margin: 2%;
+}
+
+.showChecks tr td img {
+    display: block;
+    width: 110px;
+    height: 140px;
+}
+
+/* Радио-кнопка 'Выбрать' */
+
+.showChecks tr td input[type=radio] {
+    display: none;
+}
+
+.showChecks tr td label:before {
+    content: 'Выбрать';
+    display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	margin-top: 10%;
+    margin-bottom: 10%;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
+}
+
+.showChecks tr td label:hover {
+    box-shadow: 0 0 5px purple;
+    border-radius: 6px;
+}
+
+.showChecks tr td input[type=radio]:checked + label:before {
+    display: none;
+}
+
+.showChecks tr td input[type=radio]:checked + label:after {
+    content: 'Выбрано!';
+    background:#e3db96;
+    box-shadow: 0 0 5px purple;
+    display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	margin-top: 10%;
+    margin-bottom: 10%;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
+}
+
+/* Кнопки назад и скачать */
+/* Кнопка скачать */
+.buttonsBlock {
+    margin-top: 2%;
+    margin-left: 16%;
+    margin-bottom: 2%;
+    width: 80%;
+}
+
+.buttonsBlock div {
+    display: inline-block;
+    width: 5%;
+}
+
+.buttonsBlock div:nth-child(2) {
+    margin-left: 2%;
+}
+
+.buttonsBlock div button {
+    display: block;
+    background: peru;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 300%;
+    margin-bottom: 1%;
+    border: 1px solid grey;
+}
+
+.buttonsBlock div button:hover,
+.buttonsBlock div button:active,
+.buttonsBlock div button:focus {
+    box-shadow: 0 0 5px purple;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Кнопка назад */
+.buttonsBlock div:first-child {
+    border-radius: 10px;
+    font-weight: 600;
+    width: 8%;
+}
+
+.buttonsBlock div:first-child a {
+    text-decoration: none;
+    border: 1px solid grey;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    color: black;
+    display: block;
+    border-radius: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.buttonsBlock div:first-child a:hover {
+    box-shadow: 0 0 5px purple;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.lang {
+    display: inline-block;
+    width: 5%;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    vertical-align: middle;
+    opacity: 0.2;
+}
+
+.languageButton {
+    margin-left: 35%;
+    border: 1px solid black;
+    width: 40%;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    vertical-align: middle;
+    border-radius: 10px;
+    opacity: 0.5;
+    box-shadow: 0 0 5px peru;
+}
+
+.languageButton:hover,
+.languageButton:focus,
+.languageButton:active {
+    box-shadow: 0 0 5px green;
+    outline: none;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.blockLang {
+    position: absolute;
+    width: 10%;
+    left: 88%;
+    bottom: 94%;
+}

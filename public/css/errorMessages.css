@@ -1,0 +1,30 @@
+/* В разделе просмотра чеков */
+.errorNoChecks {
+    margin-left: 14%;
+    background: pink;
+    border: 1px solid black;
+    box-shadow: 0 0 5px red;
+    width: 72%;
+    text-align: center;
+}
+
+/* Ошибки валидации и прочие сообщения */
+.alert div {
+    margin-left: 14%;
+    margin-bottom: 1%;
+    background: pink;
+    border: 1px solid black;
+    box-shadow: 0 0 5px red;
+    width: 72%;
+    text-align: center;
+}
+
+.alertMessage div{
+    margin-left: 14%;
+    margin-bottom: 1%;
+    background: pink;
+    border: 1px solid black;
+    box-shadow: 0 0 5px red;
+    width: 72%;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+/* Страница входа */
+@import 'login.css';
+/* Регистрация */
+@import 'register.css';
+/* Меню */
+@import 'menu.css';
+/* Блок выбора языка */
+@import 'languageButton.css';
+/* Главная страница */
+@import 'main.css';
+/* Администрирование */
+@import 'administration.css';
+/* Как оплатить? */
+@import 'howToPay.css';
+/* Изменение показаний */
+@import 'changeIndications.css';
+/* Замена счётчика */
+@import 'changeCounter.css';
+/* Личный кабинет */
+@import 'account.css';
+/* Счётчики */
+@import 'counters.css';
+/* Контакты */
+@import 'contacts.css';
+/* Чеки */
+@import 'checks.css';
+/* Ошибки и сообщения */
+@import 'errorMessages.css';
+/* Предупреждение о поверке/замене счётчиков */
+@import 'verificationOrEndofServiceAlarm.css';
+
+
+/* Основной app.layout */
+body {
+    background: #f5f5f5ef;
+}
+
+input,
+label {
+    margin-left: 10%;
+}
+
+.container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid blue;
+    background: gainsboro;
+    min-height: 500px;
+}

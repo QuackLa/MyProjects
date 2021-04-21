@@ -1,0 +1,32 @@
+.menu {
+    border: 1px solid blue;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    background: gainsboro;
+}
+
+.menuContainer {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    width: 75%;
+}
+
+.menuContainer a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: goldenrod;
+    color: black;
+    display: inline-block;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 15%;
+}
+
+.menuContainer a:hover {
+    box-shadow: 0 0 5px purple;
+}

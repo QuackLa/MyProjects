@@ -1,0 +1,71 @@
+.title {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Основная таблица */
+
+.content {
+    height: 500px;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.content td {
+    width: 25%;
+    height: 50%;
+}
+
+.content tr td:first-child {
+    margin-bottom: 5%;
+}
+
+/* Кнопки */
+
+.submit {
+    background: peru;
+    width: 50%;
+    margin-left: 45%;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 2%;
+    border: 1px solid grey;
+}
+
+.submit:hover,
+.submit:focus,
+.submit:active {
+    box-shadow: 0 0 5px purple;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.buttonChange {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.buttonChange:hover {
+    box-shadow: 0 0 5px purple;
+    cursor: pointer;
+}
+
+.backButtonIndications a {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid grey;
+    color: black;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0 0 5px grey;
+    margin-left: 60%;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 30%;
+}
+
+.backButtonIndications a:hover {
+    box-shadow: 0 0 5px purple;
+    outline: none;
+}

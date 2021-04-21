@@ -1,0 +1,16 @@
+.Counters {
+    border-radius: 10px;
+    margin-left: 10%;
+    padding: 1%;
+    padding-left: 5%;
+    width: 90%;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+.Counters tr td input,
+.Counters tr td select {
+    margin-left: 0%;
+    background: #fffce3;
+    border: 1px solid grey;
+}
